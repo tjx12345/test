@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 //抽取css插件
@@ -8,7 +8,7 @@ const webpack = require('webpack');
 //读取package.json文件中的版本号
 const version = JSON.parse(require('fs').readFileSync('./package.json')).version;
 
-//压缩js
+//压缩js1
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
